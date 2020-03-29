@@ -1,5 +1,5 @@
 # Pyber_Analysis
-## The summary Dataframe shows an overview of fare and rides in the three city types: urber, suburban and rural.
+The summary Dataframe shows an overview of fare and rides in the three city types: urber, suburban and rural.
 ## According to the data rural cities have:
 - The highest fare per ride
 - The highest fare per driver
