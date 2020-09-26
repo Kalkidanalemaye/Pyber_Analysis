@@ -40,6 +40,22 @@ We can conclude that urban cities have cheaper fares with high number of drivers
 ![dataframe](https://github.com/Kalkidanalemaye/Pyber_Analysis/blob/master/summarytable.jpg)
 
 ## Multiple-Line Plot for the Sum of the Fares for Each City Type
+
+### Instruction
+
+1. Rename columns {'city': 'City', 'date':'Date','fare':'Fare', 'ride_id': 'Ride Id','driver_count': 'No. Drivers', 'type':'City Type'}.
+2. Set the index to the Date column.
+3. Create a new DataFrame for fares and include only the Date, City Type, and Fare columns using the copy() method on the merged DataFrame.
+4. Drop the extra Date column.
+5. Set the index to the datetime data type.
+6. Check the DataFrame using the info() method to make sure the index is a datetime data type.
+7. Calculate the sum() of fares by the type of city and date using groupby() to create a new DataFrame.
+8. Reset the index.
+9. Create a pivot table DataFrame with the Date as the index and columns = 'City Type' with the Fare for each Date in each row.
+10. Create a new DataFrame from the pivot table DataFrame on the given dates '2019-01-01':'2019-04-28' using loc .
+11. Create a new DataFrame by setting the DataFrame you created in Step 10 with resample() in weekly bins, and calculate the sum() of the fares for each week.
+12. Using the object-oriented interface method, plot the DataFrame you created in Step 11 using the df.plot() function. 
+
 According to the plot, urban cities have the highest fares and all cities have a high peak just before the month of March.
 Sururban cities have lower fares compared to urban cities but higher fares compared to rural cities which have the lowest fares.
 
