@@ -12,7 +12,7 @@ We can conclude that urban cities have cheaper fares with high number of drivers
 
 #### Final Summary Table
 
-https://github.com/Kalkidanalemaye/Pyber_Analysis/blob/master/summarytable.jpg
+![dataframe](https://github.com/Kalkidanalemaye/Pyber_Analysis/blob/master/summarytable.jpg)
 
 ## Multiple-Line Plot for the Sum of the Fares for Each City Type
 According to the plot, urban cities have the highest fares and all cities have a high peak just before the month of March.
