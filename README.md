@@ -56,6 +56,8 @@ We can conclude that urban cities have cheaper fares with high number of drivers
 11. Create a new DataFrame by setting the DataFrame you created in Step 10 with resample() in weekly bins, and calculate the sum() of the fares for each week.
 12. Using the object-oriented interface method, plot the DataFrame you created in Step 11 using the df.plot() function. 
 
+### Finding
+
 According to the plot, urban cities have the highest fares and all cities have a high peak just before the month of March.
 Sururban cities have lower fares compared to urban cities but higher fares compared to rural cities which have the lowest fares.
 
