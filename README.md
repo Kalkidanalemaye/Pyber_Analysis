@@ -42,3 +42,5 @@ We can conclude that urban cities have cheaper fares with high number of drivers
 ## Multiple-Line Plot for the Sum of the Fares for Each City Type
 According to the plot, urban cities have the highest fares and all cities have a high peak just before the month of March.
 Sururban cities have lower fares compared to urban cities but higher fares compared to rural cities which have the lowest fares.
+
+![multiplelineplot](https://github.com/Kalkidanalemaye/Pyber_Analysis/blob/master/totalfare.jpg)
